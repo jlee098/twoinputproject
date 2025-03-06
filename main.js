@@ -26,8 +26,6 @@ function displayImage() {
     const imgElement15 = document.getElementById("displayedImage15");
 
 
-    // console.log(input1_letter, input2_letter);
-
     //     'B': 'Baked',
     //     'S': 'Simmered',
     //     'G': 'Grilled',
