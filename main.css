@@ -57,7 +57,6 @@
 #displayedImage1,
 #displayedImage2,
 #displayedImage3,
-#displayedImage4,
 #displayedImage5,
 #displayedImage6,
 #displayedImage7,
@@ -81,6 +80,16 @@
 
 /* angrymama gif */
 #displayedImage15 {
+    display: none;
+    position: absolute;
+    height: 255.5px;
+    width: 343.5px;
+    left: 12.5em;
+    top: 3.4em;
+    z-index: 10000;
+}
+
+#displayedImage4 {
     display: none;
     position: absolute;
     height: 255.5px;
