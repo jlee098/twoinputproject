@@ -1,0 +1,180 @@
+.bottomscreen {
+    position: absolute;
+    bottom: 62.2%;
+    left: 46.4%;
+    transform: translate(-50%, 0);
+    width: 23%;
+    max-width: 345px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    z-index: 1000;
+    background: transparent;
+    font-size: 16px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+
+}
+
+#charInput1,
+#charInput2 {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    border: 2.5px solid #000000;
+    border-radius: 7px;
+    outline: none;
+    background-color: #ffffff;
+    z-index: 999;
+
+}
+
+#submitButton {
+    position: absolute;
+    bottom: -18px;
+    left: 126.5px;
+    transform: translateX(-50%);
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 2.5px solid #000000;
+    cursor: pointer;
+    background-color: #f7bc57;
+    color: rgb(5, 4, 4);
+    z-index: 999;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* style for the displayed images */
+#displayedImage1,
+#displayedImage2,
+#displayedImage3,
+#displayedImage4,
+#displayedImage5,
+#displayedImage6,
+#displayedImage7,
+#displayedImage8,
+#displayedImage9,
+#displayedImage10,
+#displayedImage11,
+#displayedImage12,
+#displayedImage13,
+#displayedImage14 {
+    display: none;
+    position: absolute;
+    bottom: -19.5em;
+    left: 23.3em;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 256.7px;
+    object-fit: contain;
+    z-index: 5;
+}
+
+/* angrymama gif */
+#displayedImage15 {
+    display: none;
+    position: absolute;
+    height: 255.5px;
+    width: 343.5px;
+    left: 12.5em;
+    top: 3.4em;
+    z-index: 10000;
+}
+
+.show-image {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* for food hover text positioning */
+.image-container,
+.image-container1 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    display: none;
+    position: absolute;
+    top: 17em;
+    left: 23.36em;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    z-index: 10000;
+    align-items: center;
+}
+
+.image-container:hover .image-text {
+    display: block;
+    width: 335px;
+}
+
+.image-container1:hover .image-text {
+    display: block;
+    width: 335.5px;
+    height: 30px;
+    left: 23.3em;
+    top: 16em;
+}
+
+.image-container img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: white;
+}
+
+.ds img {
+    position: relative;
+    width: auto;
+    height: 100vh;
+    object-fit: contain;
+    margin-right: 5px;
+    margin-bottom: 1em;
+    z-index: 1;
+}
+
+/* styling top screen of ds) */
+.topscreen {
+    position: absolute;
+    top: 7.6%;
+    /* Adjust to match the DS screen position */
+    left: 49.76%;
+    transform: translate(-50%, 0);
+    width: 22.8%;
+    /* Adjust width to fit screen */
+    max-width: 345px;
+    max-height: 50px;
+    /* Ensure it stays inside */
+    z-index: 10;
+    /* Ensure it's on top */
+}
+
+/* styling for top screen images */
+.topscreen img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
