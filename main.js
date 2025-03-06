@@ -87,7 +87,7 @@ function displayImage() {
             imgElement11.style.display = "block";
             // SEAFOOD + GRILLED
         } else if ((input1_number === 5 || input1_number === 6 || input1_number === 13 || input1_number === 15 || input1_number === 19 || input1_number === 21) && input2_number === 7) {
-            imgElement12.src = "cookingmama/seafoodgrilled.jpeg";
+            imgElement12.src = "cookingmama/seafoodgrilled1.webp";
             imgElement12.style.display = "block";
             // SEAFOOD + FRIED
         } else if ((input1_number === 5 || input1_number === 6 || input1_number === 13 || input1_number === 15 || input1_number === 19 || input1_number === 21) && input2_number === 6) {
